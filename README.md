@@ -16,7 +16,7 @@ docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root --restart un
 ```  
 
 
-2. Deploy the [sql-дамп](src/main/resources/sql-dump/dump-hibernate-final.sql)
+2. Deploy the [sql-dump](src/main/resources/sql-dump/dump-hibernate-final.sql)
 
 
 3.  Run the Redis server as a docker container
